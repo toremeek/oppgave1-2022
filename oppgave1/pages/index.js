@@ -22,6 +22,9 @@ export default function Home() {
         <h1 className={styles.title}>Oppgave 1</h1>
 
         <p className={styles.description}>Next.js og API</p>
+        <p>
+          Fyll inn kode for å hente data fra lokalt api og Chuck Norris apiet
+        </p>
         {/* lag en knapp som endrer staten til false, slik at getDataAndPrint kjøres */}
       </main>
     </div>
