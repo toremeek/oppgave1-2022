@@ -7,12 +7,16 @@ body {
 }
 
 a {
-  color: inherit;
+  color: teal;
   text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
+}
+.oppgaver{
+  width: 50%;
+  line-height: 1.6;
 }
 
 @media (prefers-color-scheme: dark) {

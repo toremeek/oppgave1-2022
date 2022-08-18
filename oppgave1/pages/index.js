@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { useState } from "react";
 import GetDataAndPrint from "../components/getDataAndPrint";
+import Tasks from "../components/task";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -22,9 +23,7 @@ export default function Home() {
         <h1 className={styles.title}>Oppgave 1</h1>
 
         <p className={styles.description}>Next.js og API</p>
-        <p>
-          Fyll inn kode for å hente data fra lokalt api og Chuck Norris apiet
-        </p>
+        <Tasks />
         {/* lag en knapp som endrer staten til false, slik at getDataAndPrint kjøres */}
       </main>
     </div>
