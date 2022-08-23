@@ -6,19 +6,29 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: teal;
-  text-decoration: none;
-}
-
 * {
   box-sizing: border-box;
 }
 .oppgaver{
-  width: 50%;
   line-height: 1.6;
+  margin: auto;
 }
 
+.chuck, .apimessages{
+  background-color: rgba(214, 214, 214, 0.586);
+  padding: 1rem;
+  max-width: 60%;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+input{
+  width: 90%;
+}
+
+#error{
+  color: red;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

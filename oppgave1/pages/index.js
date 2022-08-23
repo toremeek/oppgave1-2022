@@ -1,16 +1,10 @@
 import Head from "next/head";
-import { useState } from "react";
+import GetChuckData from "../components/GetChuckData";
 import GetDataAndPrint from "../components/getDataAndPrint";
 import Tasks from "../components/task";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
-  //useState her
-
-  const getApiData = () => {
-    setShowButton(!showButton);
-  };
-
   return (
     <div className={styles.container}>
       <Head>
@@ -21,10 +15,10 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Oppgave 1</h1>
-
         <p className={styles.description}>Next.js og API</p>
-        <Tasks />
-        {/* lag en knapp som endrer staten til false, slik at getDataAndPrint kjøres */}
+        {/* <Tasks /> */}
+        <GetDataAndPrint />
+        <GetChuckData />
       </main>
     </div>
   );
